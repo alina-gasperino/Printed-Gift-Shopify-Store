@@ -1,0 +1,233 @@
+<style>
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+	column-gap: 10px;
+  row-gap: 10px;
+}
+.features .feature {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+  min-height: 400px;
+}
+.features .feature .feature-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.features .feature-content .feature-image {
+    width: 100px;
+    height: 100px;
+}
+.features .feature-content .feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.features a.main-url {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.align_text--left {
+    text-align: left;
+  padding-left: 20px;
+}
+  .align_text--center {
+    text-align: center;
+}
+  .align_text--right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.text-center .features .feature .feature-content, .text-center .features a.main-url {
+    align-items: center;
+}
+  .text-left .features .feature .feature-content, .text-left .features a.main-url {
+    align-items: flex-start;
+}
+  .text-right .features .feature .feature-content, .text-right .features a.main-url {
+    align-items: end;
+}
+ .features.border-redias .feature {
+    border-radius: 10px;
+}   
+ .features .feature .feature-content .feature-title {
+    margin-top: 15px;
+} 
+@media screen and (max-width: 769px){
+  .features .feature {
+    width: 100%;
+  }
+}
+</style>
+<div style="background-color: {{ section.settings.bg_color }}">
+<div class=" text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}" style="padding: 40px 40px;">
+  <div class="section-title align_text--{{ section.settings.align_text }}"><h2 style="color: {{ section.settings.maintitle_color }}">{{ section.settings.main-title }}</h2></div>
+  
+  <div class="features {% if section.settings.blogcorner %} border-redias {% endif %}">
+  {% for block in section.blocks %}
+    <div class="feature" style="background-color: {{ block.settings.block_color }}">
+     {% if block.settings.fullblocklink %} <a href="{{ block.settings.btnurl }}" class="main-url"> {% endif %}
+      <div class="feature-content">
+        <div class="feature-image"><img src="{{ block.settings.image | img_url: 'master' }}"></div>
+        <div class="feature-title"><h3 style="color: {{ block.settings.block_text_color }}">{{ block.settings.title }}</h3></div>
+        <div class="feature-description" style="color: {{ block.settings.block_text_color }}"> {{ block.settings.fd }} </div>
+       {% if block.settings.btnname != blank %} <div class="feature-btn"><a class="btn" href="{{ block.settings.btnurl }}" style="color: {{ block.settings.btn_text_color }}; background-color: {{ block.settings.btn_bg_color }}">{{ block.settings.btnname }}</a></div> {% endif %}
+      </div>
+     {% if block.settings.fullblocklink %} </a> {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Feature Section",
+  "class": "index-section feature-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Add Section title",
+      "default": "Main Title"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.rich-text.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "narrow_column",
+      "label": "t:sections.rich-text.settings.narrow_column.label",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+      {
+      "type": "color",
+      "id": "maintitle_color",
+      "label": "Title Color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "blogcorner",
+      "label": "block corner redias?",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "color",
+          "id": "block_color",
+          "label": "Background Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Feature Title",
+          "default": "Add Feature"
+        },
+        {
+          "type": "richtext",
+          "id": "fd",
+          "label": "Feature Description",
+          "default": "<p>Add Feature Description</p>"
+        },
+        {
+          "type": "text",
+          "id": "btnname",
+          "label": "Button Name",
+          "default": "Button"
+        },
+        {
+          "type": "url",
+          "id": "btnurl",
+          "label": "Button URL"
+        },
+        {
+          "type": "color",
+          "id": "btn_bg_color",
+          "label": "Background Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "btn_text_color",
+          "label": "Text Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "checkbox",
+          "id": "fullblocklink",
+          "label": "Full Block Link",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Section",
+      "blocks": [
+        {
+          "type": "Feature"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,163 @@
+<!-- teeinblue scripts. DON\'T MODIFY!!! -->
+{% liquid
+  assign sdk_url = shop.metafields.teeinblue.sdk_url
+  assign sdk_version = shop.metafields.teeinblue.sdk_version
+  assign token = shop.metafields.teeinblue.token
+  assign api_url = shop.metafields.teeinblue.api_url
+  assign custom_style = shop.metafields.teeinblue.custom_style
+  assign custom_script = shop.metafields.teeinblue.custom_script
+  assign config = shop.metafields.teeinblue.config
+  assign should_load_script = false
+%}
+<!-- teeinblue async script -->
+<script
+  type="text/javascript"
+  async
+  src="{{ sdk_url }}/async.js?platform=shopify&amp;v={{ sdk_version }}&amp;token={{ token }}&amp;shop={{ shop.permanent_domain }}"
+></script>
+<!-- teeinblue async script end -->
+<script>
+  window.teeinblueShop = {
+    shopCurrency: {{ shop.currency | json }},
+  };
+</script>
+
+{% if shop.metafields.teeinblue.config.value.enable_for_all_pages %}
+  {% assign should_load_script = true %}
+{% endif %}
+
+{% if template contains 'product' %}
+  {% assign version = product.metafields.teeinblue.campaign_version %}
+  {% assign platformProduct = product.metafields.teeinblue.platform_product %}
+  {% assign isPlatformProduct = false %}
+  {% assign teeProduct = false %}
+  {% assign startDate = '2020-03-31 23:59:59' | date: '%s' %}
+  {% assign endDate = '2020-10-20 00:00:00' | date: '%s' %}
+  {% assign productCreatedDate = product.created_at | date: '%s' %}
+  {% assign productVendor = product.vendor | downcase %}
+  {% assign addonVariants = product.metafields.teeinblue.addon_variants.value %}
+  {% if platformProduct %}
+    {% assign isPlatformProduct = true %}
+    {% assign version = platformProduct.value.published_at | date: '%s' %}
+  {% endif %}
+  {% if version
+    or isPlatformProduct
+    or productVendor == 'teeinblue'
+    and productCreatedDate > startDate
+    and productCreatedDate < endDate
+  %}
+    {% assign teeProduct = true %}
+  {% endif %}
+  {% if version %}
+  <link
+    rel="preload"
+    href="{{ api_url }}/api/merchant/campaigns/{{ product.id }}.json?shop={{ shop.permanent_domain }}&v={{ version }}"
+    as="fetch"
+    crossorigin="anonymous"
+  >
+  {% endif %}
+  <script id="teeinblue-product-data">
+    window.TeeInBlueCampaign = {
+      {% if version %}
+      version: {{ version }},
+      {% endif %}
+      isTeeInBlueProduct: {{ teeProduct }},
+      isPlatformProduct: {{ isPlatformProduct }},
+      productId: {{ product.id }},
+      variantsById: {
+        {% for variant in product.variants %}
+          {% assign saving_price = 0 %}
+          {% if variant.compare_at_price %}
+            {% assign saving_price = variant.compare_at_price | minus: variant.price %}
+          {% endif %}
+          "{{ variant.id }}": {
+            id: {{ variant.id }},
+            price: {{ variant.price }},
+            compare_at_price: {{ variant.compare_at_price | default: 0 }},
+            saving_price: {{ saving_price }},
+            formatted_price: {{ variant.price | money | json }},
+            formatted_compare_at_price: {{ variant.compare_at_price | money | json }},
+            formatted_saving_price: {{ saving_price | money | json }},
+          },
+        {% endfor %}
+      },
+      {% if config %}
+      config: {{ config }},
+      {% endif %}
+      addonVariants: [
+        {% for variant in addonVariants %}
+          {% if variant %}
+        {{ variant | json }},
+          {% endif %}
+        {% endfor %}
+      ],
+    };
+  </script>
+  {% if teeProduct %}
+    {% assign should_load_script = true %}
+    <style>
+      .teeinblue-product-loading form[action*='/cart/add'],
+      .teeinblue-product-loading .product-form,
+      .teeinblue-product-loading .product-form__input,
+      .teeinblue-product-loading variant-radios {
+        display: none;
+      }
+    </style>
+    <script>
+      function teeinblueDocumentReady(fn) {
+        if (document.readyState != 'loading') {
+          fn();
+        } else {
+          document.addEventListener('DOMContentLoaded', fn);
+        }
+      }
+
+      function teeinblueAddLoader() {
+        var rootEl = document.documentElement;
+
+        if (rootEl) {
+          rootEl.classList.add('teeinblue-product-loading');
+        }
+      }
+
+      function teeinblueHideLoader() {
+        var rootEl = document.documentElement;
+
+        if (rootEl) {
+          rootEl.classList.remove('teeinblue-product-loading');
+        }
+      }
+
+      teeinblueDocumentReady(function () {
+        var timeout = window.TeeInBlue && window.TeeInBlue.loaderTimeout ? window.TeeInBlue.loaderTimeout : 2000;
+
+        document.addEventListener('teeinblue-event-component-injected', function () {
+          teeinblueHideLoader();
+        });
+
+        setTimeout(function () {
+          teeinblueHideLoader();
+        }, timeout);
+      });
+
+      teeinblueAddLoader();
+    </script>
+  {% endif %}
+{% endif %}
+
+{% if should_load_script %}
+<script
+  type="text/javascript"
+  src="{{ sdk_url }}/shopify/app-v{{ sdk_version }}.js?token={{ token }}&shop={{ shop.permanent_domain }}"
+  defer="defer"
+></script> 
+{% endif %}
+
+{% if custom_style %}
+  {{ custom_style }}
+{% endif %}
+
+{% if custom_script %}
+  {{ custom_script }}
+{% endif %}
+<!-- teeinblue scripts end. -->

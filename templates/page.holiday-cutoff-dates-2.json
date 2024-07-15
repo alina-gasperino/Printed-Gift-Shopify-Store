@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "64211640-c7af-4ebc-819f-f74fe149f2b2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17081072648415__64211640-c7af-4ebc-819f-f74fe149f2b2-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Holiday Order Deadlines",
+            "title_size": 80,
+            "subheading": "Thank you for supporting our small business this year. Our team is working hard to prepare proofs and print your order. Our suggested holiday order times are below.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/christmas-tree-with-lights-and-ornaments.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17081072648415__64211640-c7af-4ebc-819f-f74fe149f2b2-image-1"
+      ],
+      "settings": {
+        "section_height": "450px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday Cutoff Dates"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Thank you for supporting our small business this year. Our team is working hard to prepare proofs and print your order. Our suggested Holiday order time are below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17081072648415__babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Christmas Gift Cutoff - Sunday Dec. 10th at Midnight"
+          }
+        },
+        "template--17081072648415__babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We highly recommend placing your order by December 10th to help ensure your package arrive before Christmas. Orders placed after the 10th may not arrive before the Holiday weekend due to proofing times, printing time and shipping times. <\/p><p>These are our current production times:<\/p><ul><li>Proofs (3-5 Business Days)<\/li><li>Printing (2-3 Days)<\/li><li>Shipping (Dependant on the shipping method you choose at checkout)<\/li><\/ul><p>We encourage you to choose a priority shipping method at checkout to shorten transit times.<\/p><p>*Your order may be delayed if proofs are not approved on time. Changing your recipe, uploading new photos and extra design changes will add on to total production time. <\/p><p>*We cannot gaurantee and are not responsible for lost, delayed or damaged shipments from UPS, USPS or DHL. <\/p><h6><\/h6><p><\/p><p><\/p><p><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17081072648415__babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7-heading-1",
+        "template--17081072648415__babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "column3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Start Creating Your Gifts",
+        "home_featured_products": "turn-family-recipes-into-beautiful-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "64211640-c7af-4ebc-819f-f74fe149f2b2",
+    "slideshow",
+    "rich-text",
+    "babfe340-d1ac-4b1a-a88d-86f4a6d7c0b7",
+    "text-columns",
+    "map",
+    "featured-collection",
+    "form"
+  ]
+}

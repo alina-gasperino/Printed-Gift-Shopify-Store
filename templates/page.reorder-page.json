@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "How to Reorder"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "16397138-6025-436a-a0f5-e83f56caa3c3": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/example_reorder.png",
+        "image_width": 380,
+        "subtitle": "",
+        "title": "Reorder Steps",
+        "text": "<p>1. Go the the product listing for the product that you would like to reorder.<\/p><p>2. Choose your quantity for that product.<\/p><p>3. In the \"Special Instructions\" let us know the order # (if you have it) and the name of the recipe you would like to reorder.<\/p><p>4. Add to cart and check out. <\/p><p>Tips:<br\/>* If you would like to change anything from the previous order let us know in the special instructions<\/p><p>* If you would like to add or change a title you can use the \"Add Title Above Recipe\" field<br\/><br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "24c69f66-1e72-4c85-9956-74b28abe5268": {
+      "type": "imgae-link-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/example_reorder.png",
+        "image_width": 380,
+        "subtitle": "",
+        "title": "Reorder Steps",
+        "text": "<p>1. Go the the product listing for the product that you would like to reorder.<\/p><p>2. Choose your quantity for that product.<\/p><p>3. In the \"Special Instructions\" let us know the order # (if you have it) and the name of the recipe you would like to reorder.<\/p><p>4. Add to cart and check out. <\/p><p>Tips:<br\/>* If you would like to change anything from the previous order let us know in the special instructions<\/p><p>* If you would like to add or change a title you can use the \"Add Title Above Recipe\" field<br\/><br\/><\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Choose a Product to Reorder",
+        "home_featured_products": "turn-family-recipes-into-beautiful-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "rich-text",
+    "16397138-6025-436a-a0f5-e83f56caa3c3",
+    "24c69f66-1e72-4c85-9956-74b28abe5268",
+    "main",
+    "featured-collection"
+  ]
+}

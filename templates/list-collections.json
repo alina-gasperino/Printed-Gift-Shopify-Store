@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "637cea33-d29a-4f06-a2b6-f076d2a2f5f9": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-family-recipes-into-beautiful-gifts"
+          }
+        },
+        "851fa5de-2c7f-48a4-a4b7-103df67726ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-handwritten-letters-into-beautiful-gifts"
+          }
+        },
+        "529cae83-f0d0-4198-9ff5-8292948319aa": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-kids-artwork-into-beautiful-gifts"
+          }
+        },
+        "813e1736-ee46-4068-9069-221cfadc53fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-photos-into-beautiful-gifts"
+          }
+        },
+        "be13914d-b25a-41f4-907b-775fb3f3b9cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-photos-into-gifts-we-remove-backgrounds"
+          }
+        },
+        "e1a70b77-0aeb-4afc-be57-d70e11c797f6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "customizable-mugs"
+          }
+        }
+      },
+      "block_order": [
+        "637cea33-d29a-4f06-a2b6-f076d2a2f5f9",
+        "851fa5de-2c7f-48a4-a4b7-103df67726ff",
+        "529cae83-f0d0-4198-9ff5-8292948319aa",
+        "813e1736-ee46-4068-9069-221cfadc53fb",
+        "be13914d-b25a-41f4-907b-775fb3f3b9cc",
+        "e1a70b77-0aeb-4afc-be57-d70e11c797f6"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical_reversed",
+        "grid": "3"
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo4": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo5": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo6": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo1",
+        "logo2",
+        "logo3",
+        "logo4",
+        "logo5",
+        "logo6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our brands",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "logo-list"
+  ]
+}

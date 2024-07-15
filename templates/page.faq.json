@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Product & Process",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "How do I get my recipe to you?",
+            "text": "<p>Take a good top-view photo or make a scan (full color works better than black & white) of the recipe before ordering. Most phone cameras work great! Just make sure to take the picture with your phone parallel with the recipe and avoid shadows. On the product page you will see a button to upload your recipe before adding the to cart.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "How clear will the imprint be? Is the quality of my recipe image good enough?",
+            "text": "<p>We have a great team of designers that are able to clean up even old and dirty recipes. We are not able to remaster the recipe (bring back missing or stained  parts of text) If our team is concerned about the quality of a recipe a Canvastry team member will reach out to you before printing.<\/p>"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "Can I see what my recipe will look like before printing?",
+            "text": "<p>Yes! After we receive your recipe and clean it up we will email you the final image. At that time you can approve your recipe proof or let us know if you want to make any further changes.<\/p>"
+          }
+        },
+        "62ea7d8e-827d-4c3b-aac0-38845f2bc307": {
+          "type": "question",
+          "settings": {
+            "title": "What will you take out of the recipe? What will you leave?",
+            "text": "<p>Unless otherwise requested we extract only the handwritten part of the recipe. We exclude lines, artwork from the paper and text such as “from the kitchen of” or “feeds __” unless otherwise noted. You can request to leave certain aspects of the recipe when adding to cart and our graphic designers will gladly oblige.<\/p>"
+          }
+        },
+        "29da4e8a-ef16-40ce-8bfe-e79f04631a1e": {
+          "type": "question",
+          "settings": {
+            "title": "Can I add a photo to my towel?",
+            "text": "<p>Yes, we can print an image or photo along with your recipe. Please attach it along with your recipe when ordering. Under \"special instruction\" let us know where you would like to have the image placed.<\/p>"
+          }
+        },
+        "6ab7625e-1fdc-418f-9630-f72de7fecc32": {
+          "type": "question",
+          "settings": {
+            "title": "Can I combine the front & back of a recipe into one print?",
+            "text": "<p>Yes! When ordering your product upload both sides of the recipe and our graphic designers will combine them into a single print.<\/p>"
+          }
+        },
+        "abe835bf-c501-4701-8e4c-f8b1d4296b5e": {
+          "type": "question",
+          "settings": {
+            "title": "Can I print 2 or more recipes on 1 item?",
+            "text": "<p>Yes. Upload the recipes together when placing your order. The recipes will be stacked one atop another and combined into a single print.<\/p>"
+          }
+        },
+        "faq-3": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping & Returns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "1d46acbc-9b1a-4c36-9c05-e051bb84ad48": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you ship to?",
+            "text": "<p>We currently ship to the US & Canada. If you would like to order outside of these countries please <a href=\"https:\/\/theprintedgift.com\/pages\/contact-us\" title=\"https:\/\/theprintedgift.com\/pages\/contact-us\">contact us<\/a>.<\/p>"
+          }
+        },
+        "4eda4aee-06a7-49d9-80d5-7a42c0431ba4": {
+          "type": "question",
+          "settings": {
+            "title": "How long will my order take?",
+            "text": "<p>Please allow 3-5 business days for your recipe proof to be emailed to you. After you approve your proof your order will be shipped out in 2-3 business days. Shipping time depends on the shipping method & carrier you choose at checkout.<strong>Proofing and printing times will be longer in December. Please check our top banner for updates.<\/strong><\/p>"
+          }
+        },
+        "313d22eb-605a-4094-8d8c-6933ce2cf8a0": {
+          "type": "question",
+          "settings": {
+            "title": "What are my options if I am not satisfied with my product?",
+            "text": "<p>Due to the custom nature of all of our products we work hard to make sure everything we send is of the highest quality and that your proof is approved before shipping. If your item is found to be damaged we will gladly replace it for you. If you are unsatisfied with your product we will work to find a resolution. If you would like to receive a refund we will send you a return shipping label and process your refund once items are shipped back to our facility. Our goal is to make you happy and love your recipe gifts!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "faq-4",
+        "62ea7d8e-827d-4c3b-aac0-38845f2bc307",
+        "29da4e8a-ef16-40ce-8bfe-e79f04631a1e",
+        "6ab7625e-1fdc-418f-9630-f72de7fecc32",
+        "abe835bf-c501-4701-8e4c-f8b1d4296b5e",
+        "faq-3",
+        "1d46acbc-9b1a-4c36-9c05-e051bb84ad48",
+        "4eda4aee-06a7-49d9-80d5-7a42c0431ba4",
+        "313d22eb-605a-4094-8d8c-6933ce2cf8a0"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

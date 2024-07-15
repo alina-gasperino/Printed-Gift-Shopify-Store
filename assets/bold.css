@@ -1,0 +1,8 @@
+.bold_option_element textarea, .bold_option_element input {
+    width: -webkit-fill-available;
+}
+
+.bold_option_value_swatch {
+width: 96px;
+height: 96px;
+}

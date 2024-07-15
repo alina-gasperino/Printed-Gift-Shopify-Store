@@ -1,0 +1,345 @@
+<style>
+  .badges-section {
+    margin: 0;
+    margin-bottom: 3rem;
+}
+div#badges-section {
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+}
+#badges-section .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+	column-gap: 30px;
+    row-gap: 10px;
+}
+#badges-section .features .feature {
+       width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 35px;
+    min-height: 200px;
+
+}
+#badges-section .features .feature .feature-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+    column-gap: 10px;
+  align-items: center !important;
+}
+  #badges-section .features .feature-content .feature-image {
+    width: 50px;
+    height: 40px;
+}
+#badges-section .features .feature-content .feature-image svg {
+    width: {{ section.settings.icon-width }}px;
+    height: {{ section.settings.icon-height }}px;
+}
+  #badges-section .features .feature-content .feature-image svg[fill] {
+    color: white;
+}
+#badges-section .features .feature-content .feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+#badges-section .features a.main-url {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#badges-section .align_text--left {
+    text-align: left;
+  padding-left: 20px;
+}
+  #badges-section .align_text--center {
+    text-align: center;
+}
+  #badges-section .align_text--right {
+    text-align: right;
+    padding-right: 20px;
+}
+ #badges-section .feature-content-main {
+    text-align: left;
+}
+#badges-section .text-center .features .feature .feature-content, #badges-section .text-center .features a.main-url {
+    align-items: center;
+}
+  #badges-section .text-left .features .feature .feature-content, #badges-section .text-left .features a.main-url {
+    align-items: flex-start;
+}
+  #badges-section .text-right .features .feature .feature-content, #badges-section .text-right .features a.main-url {
+    align-items: end;
+}
+ #badges-section .features.border-redias .feature {
+    border-radius: 10px;
+}   
+ #badges-section .features .feature .feature-content .feature-title {
+    margin-top: 15px;
+} 
+@media screen and (max-width: 769px){
+  #badges-section .features .feature {
+    width: 100%;
+  }
+    div#badges-section {
+    padding: 10px 10px;
+}
+  #badges-section .features .feature {
+    min-height: 150px;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px){
+ #badges-section .features .feature {
+    width: 49%;
+  }
+  div#badges-section {
+    padding: 10px 10px;
+}
+}
+</style>
+<div id="badges-section" style="background-color: {{ section.settings.bg_color }}">
+<div class=" text-{{ section.settings.align_text }} {% comment %}page-width{% endcomment %}  {% if section.settings.narrow_column %} page-width--narrow{% endif %}" >
+  <div class="section-title align_text--{{ section.settings.align_text }}"><h2 style="color: {{ section.settings.maintitle_color }}">{{ section.settings.main-title }}</h2></div>
+  
+  <div class="features {% if section.settings.blogcorner %} border-redias {% endif %}">
+  {% for block in section.blocks %}
+    <div class="feature" style="background-color: {{ block.settings.block_color }}">
+     {% if block.settings.fullblocklink %} <a href="{{ block.settings.btnurl }}" class="main-url"> {% endif %}
+     <div class="feature-content">
+       <div class="feature-img-main">
+        <div class="feature-image">
+          <!-- <img src="{{ block.settings.image | img_url: 'master' }}"> -->
+          {{ block.settings.svg }}
+        </div>
+       </div> 
+    <div class="feature-content-main">
+        <div class="feature-title"><h3 style="color: {{ block.settings.block_text_color }}; font-size: {{ block.settings.title-size }}px">{{ block.settings.title }}</h3></div>
+        <div class="feature-description" style="color: {{ block.settings.block_text_color }}; font-size: {{ block.settings.description-size }}px"> {{ block.settings.fd }} </div>
+       {% if block.settings.btnname != blank %} <div class="feature-btn"><a class="btn" href="{{ block.settings.btnurl }}" style="color: {{ block.settings.btn_text_color }}; background-color: {{ block.settings.btn_bg_color }}; font-size: {{ block.settings.btnname-size }}px">{{ block.settings.btnname }}</a></div> {% endif %}
+    </div> 
+    </div>
+     {% if block.settings.fullblocklink %} </a> {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Badges Section",
+  "class": "index-section feature-section badges-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main-title",
+      "label": "Add Section title",
+      "default": "Main Title"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.rich-text.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "narrow_column",
+      "label": "t:sections.rich-text.settings.narrow_column.label",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+      {
+      "type": "color",
+      "id": "maintitle_color",
+      "label": "Title Color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "blogcorner",
+      "label": "block corner redias?",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "icon-width",
+      "label": "Icon width",
+      "default": 35,
+      "min": 20,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "icon-height",
+      "label": "Icon height",
+      "default": 35,
+      "min": 20,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding-top",
+      "label": "Section padding Top",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding-bottom",
+      "label": "Section padding Bottom",
+      "default": 25,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Badge",
+      "name": "Badge",
+      "settings": [
+        {
+          "type": "color",
+          "id": "block_color",
+          "label": "Background Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "block_text_color",
+          "label": "Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "html",
+          "id": "svg",
+          "label": "Add Svg Icon(HTML code)",
+          "info": "Badge SVG code. Get more icons here https://icons.getbootstrap.com"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Badge Title",
+          "default": "Add Badge"
+        },
+        {
+          "type": "range",
+          "id": "title-size",
+          "label": "Title Font Size",
+          "default": 28,
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "richtext",
+          "id": "fd",
+          "label": "Badge Description",
+          "default": "<p>Add Badge Description</p>"
+        },
+        {
+          "type": "range",
+          "id": "description-size",
+          "label": "Description Font Size",
+          "default": 16,
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "btnname",
+          "label": "Button Name",
+          "default": "Button"
+        },
+        {
+          "type": "range",
+          "id": "btnname-size",
+          "label": "Button Font Size",
+          "default": 16,
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "url",
+          "id": "btnurl",
+          "label": "Button URL"
+        },
+        {
+          "type": "color",
+          "id": "btn_bg_color",
+          "label": "Background Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "btn_text_color",
+          "label": "Text Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "checkbox",
+          "id": "fullblocklink",
+          "label": "Full Block Link",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Badges Section",
+      "blocks": [
+        {
+          "type": "Badge"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

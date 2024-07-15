@@ -1,0 +1,524 @@
+{%- comment -%}
+  {
+    "name": "Banner 07",
+    "author": "PusherCommerce"
+    "description": "Please DO NOT copy in any form. Any act of copying will be sued and held responsible with the law",
+    "Semiwrite": "Yes",
+    "App": "S"
+  }
+{%- endcomment -%}
+
+{%- capture minify -%}
+  <style>
+    #psb-{{ section.id }} {
+      background-color: {{section.settings.background_color}};
+      padding-top: {{section.settings.section_padding_top}}px;
+      padding-bottom: {{section.settings.section_padding_bottom}}px;
+    }
+    #psb-{{ section.id }} .hero_content-block {
+      display: flex;
+      padding-top: 25px;
+    }
+    #psb-{{ section.id }} .hero_block-satisfied::after {
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      border-radius: 10px;
+      padding: 2px;
+    }
+
+    #psb-{{ section.id }} .hero_block-custom {
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 15px;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: {{ section.settings.features_color }};
+      border: 2px solid {{ section.settings.features_color }};
+      border-radius: 10px;
+    }
+
+    #psb-{{ section.id }} .hero_block-custom::after {
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      border-radius: 10px;
+      padding: 2px;
+    }
+
+    #psb-{{ section.id }} .hero_block-custom p {
+      font-weight: 600;
+      margin: 16px 0 0 0;
+      font-size: {{ section.settings.feature_size_desktop }}px;
+    }
+
+    #psb-{{ section.id }} .hero_block-custom span {
+      font-weight: 600;
+      font-size: {{ section.settings.feature_size_desktop }}px;
+    }
+
+    #psb-{{ section.id }} .hero_content {
+      display: flex;
+    }
+    #psb-{{ section.id }} .hero_content-title {
+      padding-bottom: 30px;
+      font-weight: 600;
+    }
+
+    #psb-{{ section.id }} .hero_img,
+    #psb-{{ section.id }} .hero_left  {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #psb-{{ section.id }} .hero_img img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+
+    #psb-{{ section.id }} .hero_content-title {
+      color: {{section.settings.header_color}};
+    }
+    #psb-{{ section.id }} .hero_content-title p {
+      color: {{ section.settings.subheader_color }};
+    }
+    #psb-{{ section.id }} .hero_content-btn {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-bottom: 25px;
+    }
+    #psb-{{ section.id }} .hero_content-btn_arrow {
+      flex: 0 1 40%;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      white-space: nowrap;
+      margin-bottom: 25px;
+      color: {{ section.settings.button_2_bg }};
+    }
+    #psb-{{ section.id }} .hero_content-btn_arrow span {
+      padding-right: 10px;
+    }
+    #psb-{{ section.id }} .hero_content-btn_shop {
+      border-radius: 6px;
+      padding: 10px 30px;
+      margin-right: 50px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: {{ section.settings.button_1_color }};
+      background: {{ section.settings.button_1_bg }};
+      text-decoration: none;
+    }
+
+    @media (max-width: 1199px) {
+      #psb-{{ section.id }} .hero_img img {
+        padding: 0;
+        max-width: 100%;
+      }
+
+      #psb-{{ section.id }} .hero_content-block {
+        flex-wrap: wrap;
+      }
+
+      #psb-{{ section.id }} .hero_content-btn_arrow span {
+        display: block;
+      }
+
+      #psb-{{ section.id }} .hero_content {
+        flex-direction: column;
+      }
+      #psb-{{ section.id }} .hero_content-title {
+        flex: auto;
+      }
+    }
+
+    @media (max-width: 767px) {
+      #psb-{{ section.id }} {
+        padding-top: {{section.settings.section_padding_top_mobile}}px;
+        padding-bottom: {{section.settings.section_padding_bottom_mobile}}px;
+      }
+
+      #psb-{{ section.id }} .hero_img img {
+        margin-top: 0px;
+      }
+      #psb-{{ section.id }} .hero_content-btn_arrow {
+        flex: auto;
+        padding-left: 20px;
+      }
+      #psb-{{ section.id }} .hero_content-title {
+        padding-bottom: 0px;
+      }
+
+      #psb-{{ section.id }} .hero_content-title > *{
+        text-align: center;
+      }
+
+      #psb-{{ section.id }} .hero_block-custom p,
+      #psb-{{ section.id }} .hero_block-custom span  {
+        font-size: {{ section.settings.feature_size_mobile}}px;
+      }
+
+      #psb-{{ section.id }} .hero_content-btn_shop {
+      	margin:20px;
+        padding: 14px 24px;
+      }
+      #psb-{{ section.id }} .hero_content-btn{
+        flex-flow: column;
+      }
+      #psb-{{ section.id }} .hero_content-block {
+        justify-content: space-around;
+      }
+      #psb-{{ section.id }} .hero_block-custom {
+        margin: 0;
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+{%- endcapture -%}
+{{ minify | strip_newlines }}
+
+<div id="psb-{{ section.id }}" class="psb-{{ section.id }} psb-section psb-banner-banner-07" style="display: none;">
+  <div class="{{ section.settings.container_width }}">
+    <div class="psb-row">
+      <div class="hero_left psb-col-md-6">
+        <div class="hero_content-title">
+          <{{ section.settings.heading_tag }}>{{ section.settings.header }}</{{ section.settings.heading_tag }}>
+          <p>{{ section.settings.subheader }}</p>
+        </div>
+        <div class="hero_content-bottom">
+          <div class="hero_content-btn">
+            <a class="hero_content-btn_shop psb-btn" href="{{ section.settings.button_1_url }}">{{ section.settings.button_1_text }}</a>
+            <a
+              class="hero_content-btn_arrow"
+              href="{{ section.settings.button_2_url }}"
+              ><span>{{ section.settings.button_2_text }}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </a>
+          </div>
+          <div class="hero_content-block">
+            <div class="hero_block-custom">
+              <span>{{ section.settings.features_left_num }}</span>
+              <p>{{ section.settings.features_left_text }}</p>
+            </div>
+            <div class="hero_block-custom">
+              <span>{{ section.settings.features_right_num }}</span>
+              <p>{{ section.settings.features_right_text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero_img psb-col-md-6">
+        {%- if section.settings.main_image != blank -%}
+          <img src="{{ section.settings.main_image | img_url: 'master' }}" alt="Main image">
+        {%- else -%}
+          <img
+            src="https://cdn.shopify.com/s/files/1/0663/5887/0235/files/74651-chronograph-watch-baselworld-speake-marin-j12-chanel.png"
+            alt="Placeholder image"
+          >
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "⚡︎PSB: Banner 07",
+  "tag": "section",
+  "class": "hero-section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "💡 Tips: Adjust padding to vertical align content"
+    },
+    {
+      "type": "select",
+      "id": "container_width",
+      "options": [
+        {
+          "value": "psb-container",
+          "label": "Container"
+        },
+        {
+          "value": "psb-container-fluid",
+          "label": "Container Fluid"
+        },
+        {
+          "value": "psb-container-fullwidth",
+          "label": "Container Fullwidth"
+        }
+      ],
+      "default": "psb-container",
+      "label": "Container width"
+    },
+    {
+      "type": "header",
+      "content": "Main settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#000"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        },
+        {
+          "value": "div",
+          "label": "Div"
+        }
+      ],
+      "default": "h2",
+      "info": "Heading font size"
+    },
+    {
+      "type": "header",
+      "content": "Header"
+    },
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header text",
+      "default": "Leather Collection"
+    },
+    {
+      "type": "color",
+      "id": "header_color",
+      "label": "Heading font color",
+      "default": "#F95900"
+    },
+    {
+      "type": "header",
+      "content": "Subheader"
+    },
+    {
+      "type": "textarea",
+      "id": "subheader",
+      "label": "Subheader text",
+      "default": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+      "type": "color",
+      "id": "subheader_color",
+      "label": "Description font color",
+      "default": "#fff"
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Button 1"
+    },
+    {
+      "type": "color",
+      "id": "button_1_color",
+      "label": "Button 1 label color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "button_1_bg",
+      "label": "Button 1 background",
+      "default": "#F95900"
+    },
+    {
+      "type": "text",
+      "id": "button_1_text",
+      "label": "Button 1 text",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "button_1_url",
+      "label": "Button url",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "type": "text",
+      "id": "button_2_text",
+      "label": "Button 1 text",
+      "default": "Discount 30%"
+    },
+    {
+      "type": "url",
+      "id": "button_2_url",
+      "label": "Button url",
+      "default": "/collections/all"
+    },
+    {
+      "type": "color",
+      "id": "button_2_bg",
+      "label": "Button 2 label color",
+      "default": "#fff"
+    },
+    {
+      "type": "header",
+      "content": "Features"
+    },
+    {
+      "type": "text",
+      "id": "features_left_num",
+      "label": "Left features number",
+      "default": "10+"
+    },
+    {
+      "type": "text",
+      "id": "features_left_text",
+      "label": "Left features text",
+      "default": "YEARS"
+    },
+    {
+      "type": "text",
+      "id": "features_right_num",
+      "label": "Right features number",
+      "default": "100+"
+    },
+    {
+      "type": "text",
+      "id": "features_right_text",
+      "label": "Right features text",
+      "default": "STORES"
+    },
+    {
+      "type": "color",
+      "id": "features_color",
+      "label": "Features font color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "feature_size_mobile",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature size mobile",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "feature_size_desktop",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature size desktop",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Section padding settings"
+    },
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Section padding-bottom",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "⚡︎PSB: Banner 07"
+    }
+  ]
+}
+{% endschema %}

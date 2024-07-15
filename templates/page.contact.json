@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "The Printed Gift"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>(615) 678-4385<br\/>711 Main St.<br\/>Nashville, TN<br\/>37206<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    },
+    "8ee37c46-bda5-4ec6-90d4-18db0c3551f0": {
+      "type": "feature-section",
+      "blocks": {
+        "template--16881770528991__8ee37c46-bda5-4ec6-90d4-18db0c3551f0-Feature-1": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#1c1d1d",
+            "block_text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA_d7d8806a-3a8d-4a64-85df-68128b748d1d.jpg",
+            "title": "1. Take a Photo of Your Recipe",
+            "fd": "<p>Take a close photo (without shadows) or a full color scan and upload it when order your towel.<\/p>",
+            "btnname": "Button",
+            "btnurl": "",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": false
+          }
+        },
+        "2ca6fee2-a6cf-4272-8af4-58ba8327d8e6": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#1c1d1d",
+            "block_text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA_76f7f0a8-04e3-405c-80c1-df6195aaf6b6.jpg",
+            "title": "Install and match",
+            "fd": "<p>Keep the continuity and dominant design language of the store with the massive set of settings included in each section.<\/p>",
+            "btnname": "Button",
+            "btnurl": "shopify:\/\/collections\/all",
+            "btn_bg_color": "#000000",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": false
+          }
+        },
+        "2447c272-50a7-4b91-a38f-9510e2b819ea": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#1c1d1d",
+            "block_text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA_d7d8806a-3a8d-4a64-85df-68128b748d1d.jpg",
+            "title": "Incredible support",
+            "fd": "<p>We love perfection. Any help, even the smallest to make each section blend into your store, we are always available.<\/p>",
+            "btnname": "Button",
+            "btnurl": "shopify:\/\/collections",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16881770528991__8ee37c46-bda5-4ec6-90d4-18db0c3551f0-Feature-1",
+        "2ca6fee2-a6cf-4272-8af4-58ba8327d8e6",
+        "2447c272-50a7-4b91-a38f-9510e2b819ea"
+      ],
+      "disabled": true,
+      "settings": {
+        "main-title": "How We Turn Your Familys Recipe into Custom Towels & More",
+        "align_text": "center",
+        "narrow_column": true,
+        "bg_color": "#a06358",
+        "maintitle_color": "#ffffff",
+        "blogcorner": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "form",
+    "8ee37c46-bda5-4ec6-90d4-18db0c3551f0"
+  ]
+}

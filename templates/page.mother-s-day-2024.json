@@ -1,0 +1,717 @@
+{
+  "sections": {
+    "slideshow_custom_CizrgX": {
+      "type": "slideshow-custom",
+      "blocks": {
+        "image_rjmFC3": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Mother's Day 2024 \n30% Off Sitewide",
+            "title_size": 80,
+            "subheading": "Ends May 6th at Midnight",
+            "link": "",
+            "link_text": "See Best Gifts for Mom",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-10_at_9.54.06_PM.png",
+            "overlay_opacity": 32,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_rjmFC3"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "da78d529-a262-4914-8298-04dda4212305": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16768228098271__da78d529-a262-4914-8298-04dda4212305-advanced-1": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "It's Here!",
+            "heading": "Our Christmas in July Sale",
+            "textarea": "Buy more and save - Sitewide!\nDiscounts automatically calculated in cart.\nSale Ends July 31st at midnight!",
+            "cta_text1": "Create GIfts",
+            "cta_link1": "shopify:\/\/collections",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/TPG_July_Sale_2023_-_Banners_1.png",
+            "video_url": "",
+            "width": "50",
+            "height": 620,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#7f1910",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--16768228098271__da78d529-a262-4914-8298-04dda4212305-advanced-2": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "44c23474-ef97-4e43-a3b6-ad47cbe59dde": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Christmas_in_July_Tree_on_Tan.png",
+            "link": "",
+            "width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "template--16768228098271__da78d529-a262-4914-8298-04dda4212305-advanced-1",
+        "template--16768228098271__da78d529-a262-4914-8298-04dda4212305-advanced-2",
+        "44c23474-ef97-4e43-a3b6-ad47cbe59dde"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promo-grid__container:not(.promo-grid__container--boxed) .promo-grid__bg:before {background-color: transparent; background-color: transparent;}",
+        ".type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not( .promo-grid__content--sale ):after {background: transparent; background: transparent;}",
+        ".rte--block {color: #7f1910;}",
+        ".btn {color: white !important;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "6452b647-2010-4d33-a667-09425dc6231b": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-family-recipes-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-handwritten-letters-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "turn-your-kids-artwork-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "turn-your-photos-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-1",
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-2",
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-3",
+        "template--16768228098271__6452b647-2010-4d33-a667-09425dc6231b-collection-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Find Gifts to Bundle and Save!",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "40bbb086-822a-45de-9618-c95cc609d8f3": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Mother's Day Sale!",
+        "title": "Buy 3 Products Get 1 Free",
+        "text": "<p>Use code B3G1 at checkout. Find gifts for Mom, Grandma and all the Mothers in your life. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/20210221_blogphotos-0706.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": true,
+        "parallax": true
+      }
+    },
+    "5a2db54e-e407-47a2-b026-fd42edf9eed5": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Find Gifts for the Whole Family!",
+        "title": "25% Off Orders of 10 or More Products",
+        "text": "<p>Use code <strong>Bulk25<\/strong> at checkout.  <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/20210221_blogphotos-0706.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": true,
+        "parallax": true
+      }
+    },
+    "66b41179-5147-471a-9b06-ae94dfc04b2f": {
+      "type": "text-and-image",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Square_White_Warmer_4737ba48-5ec4-4892-bad7-88508730e471.jpg",
+        "image2": "shopify:\/\/shop_images\/actress.png",
+        "image_width": 700,
+        "subtitle": "Our Mother's Day Sale",
+        "title": "Buy 3 Products Get 1 Free!",
+        "text": "<p>Use code: B3G1 at checkout<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Our Mother's Day Sale",
+            "title": "Buy 3 Products Get 1 Free",
+            "title_size": 61,
+            "subheading": "Use Code B3G1 at Checkout",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/grandma_lee.png",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_Square_White_Warmer_4737ba48-5ec4-4892-bad7-88508730e471.jpg",
+            "overlay_opacity": 28,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Buy Any 3 Products and Get 1 Free!"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>How it works:<\/p><ol><li>Add at least 4 products to your cart<\/li><li>Enter code: B3G1 at checkout<\/li><li>Your 4th product is free!<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Top Selling Custom Gifts",
+        "home_featured_products": "top-sellers-mothers-day",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "96d98345-4bab-49d8-b95e-9408d8fd740a": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-family-recipes-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-handwritten-letters-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-kids-artwork-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-photos-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "b572d6ec-b31d-493a-ac53-3b489dab2bcf": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-photos-into-gifts-we-remove-backgrounds",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-0",
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-1",
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-2",
+        "template--16719311798495__96d98345-4bab-49d8-b95e-9408d8fd740a-16817395218e6f1b40-3",
+        "b572d6ec-b31d-493a-ac53-3b489dab2bcf"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Find Gifts for Everyone",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
+    "97bd7e5b-279f-48f8-8125-832cfa0733ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16719311798495__97bd7e5b-279f-48f8-8125-832cfa0733ab-16820249358d04d020-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Terms and Conditions"
+          }
+        },
+        "template--16719311798495__97bd7e5b-279f-48f8-8125-832cfa0733ab-16820249358d04d020-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use code B3G1 to take  off any new design or new product ordered on ThePrintedGift.com. Promotional code must be entered at checkout. Limit one per order and limit one per customer. Offer is limited to the United States and Canada. <\/p><p>This promotion is valid from Wednesday, April 26th until May 7th at 11:59 pm. To qualify for this promotion, customers must purchase four products in a single transaction. The free product will be of equal or lesser value than the lowest-priced item in the cart. This promotion cannot be combined with any other offers or discounts. You must have four items in your cart for the promotional code to work.<\/p><p>Standard shipping rates will apply. Order proofs that will be emailed to you must be approved by Wednesday, May 10th, for products to arrive by Mother's Day. Standard production and proofing times apply. We reserve the right to modify or cancel this promotion at any time without prior notice. By participating in this promotion, you agree to these terms and conditions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719311798495__97bd7e5b-279f-48f8-8125-832cfa0733ab-16820249358d04d020-0",
+        "template--16719311798495__97bd7e5b-279f-48f8-8125-832cfa0733ab-16820249358d04d020-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "column3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "f25bfab7-661f-492e-9c8b-f4efda5477e0": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Our Mother's Day Sale",
+        "title": "Buy 3 Products Get 1 Free",
+        "text": "<p>Use Code B3G1 at Checkout<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/flowers-for-mother.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": true,
+        "parallax": true
+      }
+    },
+    "3655ece4-4124-49a3-a02d-86cb72463397": {
+      "type": "information-section",
+      "blocks": {
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_link": ""
+          }
+        },
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_link": ""
+          }
+        },
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-0",
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-1",
+        "template--16719311798495__3655ece4-4124-49a3-a02d-86cb72463397-16814831871f03ebb7-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "link": "",
+        "link_text": "Button",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16719311798495__3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a-16820254319e62a168-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--16719311798495__3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a-16820254319e62a168-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"klaviyo-form-WWg5qv\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719311798495__3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a-16820254319e62a168-0",
+        "template--16719311798495__3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a-16820254319e62a168-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "168970333725907234": {
+      "type": "apps",
+      "blocks": {
+        "c6c717f5-d656-4e8d-8285-090a0b50c09e": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "WWg5qv"
+          }
+        }
+      },
+      "block_order": [
+        "c6c717f5-d656-4e8d-8285-090a0b50c09e"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "57b2ad5e-a531-488c-979d-829b2f98d284": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Christmas in July - Top Sellers",
+        "home_featured_products": "turn-family-recipes-into-beautiful-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "text_and_image_kmrxQz": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/example.png",
+        "image2": "shopify:\/\/shop_images\/Cobbler.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Custom Family Recipe Gifts",
+        "text": "<p>We transform your family recipes into beautiful gifts including towels, aprons, pillows and more. Simply take a photo of your recipe.<\/p>",
+        "button_label": "Create Recipe Gifts",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "text_and_image_kBXyqD": {
+      "type": "text-and-image",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/white-canvas-custom-kids-artwork-decorative-pillow-759431.jpg",
+        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-08-16_at_1.34.34_PM.png",
+        "image_width": 440,
+        "subtitle": "",
+        "title": "Turn Drawings into Gifts",
+        "text": "<p>Upload a photo of your child's drawing when placing your order. We will extract the image from the paper and turn them into beautiful presents for mom and grandma.<\/p>",
+        "button_label": "Create Children's Art Gifts",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "rich_text_9gC4Dy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MjXqjK": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_BLi3Kh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MjXqjK",
+        "text_BLi3Kh"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured_collections_eHf8wz": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JA8kP9": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-family-recipes-into-beautiful-gifts",
+            "title": "Customize Recipes into Gifts",
+            "focal_point": "center center"
+          }
+        },
+        "collection_MEFLMG": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-kids-artwork-into-beautiful-gifts",
+            "title": "Customize Drawings into Gifts",
+            "focal_point": "center center"
+          }
+        },
+        "collection_G89QiW": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-handwritten-letters-into-beautiful-gifts",
+            "title": "Customize Letters & Notes into Gifts",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JA8kP9",
+        "collection_MEFLMG",
+        "collection_G89QiW"
+      ],
+      "settings": {
+        "title": "Mother's Day Favorites",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_custom_CizrgX",
+    "da78d529-a262-4914-8298-04dda4212305",
+    "6452b647-2010-4d33-a667-09425dc6231b",
+    "main",
+    "40bbb086-822a-45de-9618-c95cc609d8f3",
+    "5a2db54e-e407-47a2-b026-fd42edf9eed5",
+    "66b41179-5147-471a-9b06-ae94dfc04b2f",
+    "slideshow",
+    "rich-text",
+    "featured-collection",
+    "96d98345-4bab-49d8-b95e-9408d8fd740a",
+    "97bd7e5b-279f-48f8-8125-832cfa0733ab",
+    "text-columns",
+    "map",
+    "form",
+    "f25bfab7-661f-492e-9c8b-f4efda5477e0",
+    "3655ece4-4124-49a3-a02d-86cb72463397",
+    "3bfe61a4-a9f4-470f-8c3b-f3097bb7ec0a",
+    "168970333725907234",
+    "57b2ad5e-a531-488c-979d-829b2f98d284",
+    "text_and_image_kmrxQz",
+    "text_and_image_kBXyqD",
+    "rich_text_9gC4Dy",
+    "featured_collections_eHf8wz"
+  ]
+}

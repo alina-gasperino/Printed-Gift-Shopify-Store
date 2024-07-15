@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "20f6c826-e135-4477-8d1b-33236765b022": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16937800827103__20f6c826-e135-4477-8d1b-33236765b022-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "template--16937800827103__20f6c826-e135-4477-8d1b-33236765b022-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "02d94131-648e-4f0d-9c70-8070a1910d04": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "template--16937800827103__20f6c826-e135-4477-8d1b-33236765b022-heading-1",
+        "template--16937800827103__20f6c826-e135-4477-8d1b-33236765b022-text-1",
+        "02d94131-648e-4f0d-9c70-8070a1910d04"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "home_featured_products": "turn-family-recipes-into-beautiful-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "20f6c826-e135-4477-8d1b-33236765b022",
+    "main",
+    "recently-viewed",
+    "featured-collection"
+  ]
+}

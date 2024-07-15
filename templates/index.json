@@ -1,0 +1,1057 @@
+{
+  "sections": {
+    "c1bd21fb-1241-4cb2-bcd5-634a51e1a038": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "15% Off Site Wide",
+        "text": "<p>Use code PrintedGift15 at checkout<\/p>",
+        "button_label": "Create Custom Recipe Towels",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "image": "shopify:\/\/shop_images\/Untitled_design_24.png",
+        "focal_point": "20% 50%",
+        "layout": "right",
+        "height": 650,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "74a57951-3dca-49ac-8eee-7249699b6b7a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16906578329823__74a57951-3dca-49ac-8eee-7249699b6b7a-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Turn Your Family Recipes into Kitchen Towels",
+            "title": "Take 15% Off All Orders",
+            "title_size": 80,
+            "subheading": "Use code PrintedGift15 at checkout. Offer ends Tuesday November 7th at midnight!",
+            "link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "link_text": "Create Yours Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Bread_and_Recipes_-_Recipe_Brightness_Corrected.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "c787b2be-63fc-4aa6-b10d-33bcb86e94b6": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16906578329823__74a57951-3dca-49ac-8eee-7249699b6b7a-image-1",
+        "c787b2be-63fc-4aa6-b10d-33bcb86e94b6"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "f61b2474-9a1c-4b01-8f11-77bb5afedd75": {
+      "type": "image-with-text-banner",
+      "custom_css": [],
+      "settings": {
+        "bg_color": "#f1ede5",
+        "text_color": "#000000",
+        "btn_bg_color": "#a06358",
+        "btn_text_color": "#ffffff",
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "spaceing": 1,
+        "image": "shopify:\/\/shop_images\/Banner_Square_White_Warmer.jpg",
+        "image_width": 50,
+        "subtitle": "",
+        "title": "Turn Family Recipes into Beautiful Custom Gifts",
+        "text": "",
+        "button_label": "Get Started",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "8c48a59b-4b81-469f-8e6d-dc15647a4404": {
+      "type": "image-with-text-banner",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f1ede5",
+        "text_color": "#000000",
+        "btn_bg_color": "#a06358",
+        "btn_text_color": "#ffffff",
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "spaceing": 1,
+        "image": "shopify:\/\/shop_images\/Banner_Square_White_Warmer.jpg",
+        "image_width": 60,
+        "subtitle": "",
+        "title": "Order 10 or More Products & Get 25% Off Your Order (Plus Free Shipping!)",
+        "text": "<p>*Discount automatically calculated at checkout. <\/p>",
+        "button_label": "Create Recipe Towels",
+        "button_link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "07266ad7-2dc8-4d64-835d-25cc58970fb7": {
+      "type": "slideshow-custom",
+      "blocks": {
+        "template--16768227868895__07266ad7-2dc8-4d64-835d-25cc58970fb7-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Christmas in July Sale has begun!",
+            "title_size": 55,
+            "subheading": "Buy more and Save",
+            "link": "shopify:\/\/pages\/promotions-page",
+            "link_text": "Learn More",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/TPG_July_Sale_2023_-_Banners_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/mobile_hero_a26332bf-87a0-40cb-8ed9-de6e12f8a719.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "49496781-33f0-4e62-8a16-f708b18d1803": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 62,
+            "subheading": "And optional subtext",
+            "link": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#e5dfd0",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Canvastry_LocationShoot_157.png",
+            "overlay_opacity": 22,
+            "focal_point": "center center"
+          }
+        },
+        "1de8977c-898b-40cd-881a-4ae81ba040d1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/T_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16768227868895__07266ad7-2dc8-4d64-835d-25cc58970fb7-image-1",
+        "49496781-33f0-4e62-8a16-f708b18d1803",
+        "1de8977c-898b-40cd-881a-4ae81ba040d1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".index-section--hero {padding: 0 40px;}",
+        ".hero__text-content.horizontal-center {text-align: left;}",
+        ".hero__subtitle,.hero__text-content .hero__link {text-align: center;}",
+        ".custom_hero__text-shadow {width: 50%; color: #7f1910;}",
+        ".hero__link .btn {background-color: #7f1910 !important;}",
+        ".hero__title {margin-left: 15%;}"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "100vh",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "9a646400-cc5b-431e-a0d0-ec15e20f87f1": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Create Custom Family Recipe towels",
+        "title": "15% Off All Products",
+        "text": "<p>Use code <strong>PrintedGift15 <\/strong>at checkout. Offer ends Tuesday November 7th at midnight!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Canvastry_LocationShoot_157.png",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": false
+      }
+    },
+    "8cbccff7-4013-4128-9fb6-9209ee351c18": {
+      "type": "psb-badges-badges-03",
+      "blocks": {
+        "template--16768227868895__8cbccff7-4013-4128-9fb6-9209ee351c18-item-1": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-house-heart\" viewbox=\"0 0 16 16\">\n  <path d=\"M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z\"><\/path>\n  <path d=\"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#a06358",
+            "badge_title": "Printed in the USA",
+            "badge_description": "<p>We ship from the United States, not overseas, for a quick turnaround time.<\/p>"
+          }
+        },
+        "template--16768227868895__8cbccff7-4013-4128-9fb6-9209ee351c18-item-2": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-file-check\" viewbox=\"0 0 16 16\">\n  <path d=\"M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z\"><\/path>\n  <path d=\"M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#a06358",
+            "badge_title": "Proof with Your Order",
+            "badge_description": "<p>Our designers will email you a proof to approve before we print your order.<\/p>"
+          }
+        },
+        "7c86b4bc-a249-45f8-9de7-2d1216e49b17": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-hand-thumbs-up\" viewbox=\"0 0 16 16\">\n  <path d=\"M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#a06358",
+            "badge_title": "Money-Back Guarantee",
+            "badge_description": "<p>We will gladly refund & cancel your order if you are not satisfied with your proof.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16768227868895__8cbccff7-4013-4128-9fb6-9209ee351c18-item-1",
+        "template--16768227868895__8cbccff7-4013-4128-9fb6-9209ee351c18-item-2",
+        "7c86b4bc-a249-45f8-9de7-2d1216e49b17"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_width": "psb-container",
+        "heading": "",
+        "heading_tag": "h3",
+        "subheading": "",
+        "heading_color": "#000000",
+        "subheading_color": "#585454",
+        "items_per_row": "3",
+        "badge_icon_size": 48,
+        "badge_heading_tag": "h3",
+        "badge_background_color": "#e5dfd0",
+        "badge_title_color": "#000000",
+        "badge_description_color": "#000000",
+        "background_color": "#ffffff",
+        "text_align": "center",
+        "section_padding_top": 5,
+        "section_padding_bottom": 5,
+        "text_align_mobile": "center",
+        "section_padding_top_mobile": 0,
+        "section_padding_bottom_mobile": 0
+      }
+    },
+    "ea124ff7-0b1c-4731-81be-ddc5d750d5f4": {
+      "type": "psb-badges-badges-03",
+      "blocks": {
+        "707c492a-b711-4b09-a8aa-867978fa1f58": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-house-heart\" viewbox=\"0 0 16 16\">\n  <path d=\"M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z\"><\/path>\n  <path d=\"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#ffffff",
+            "badge_title": "Printed in the USA",
+            "badge_description": "<p>We ship from the United States, not overseas, for a quick turnaround time.<\/p>"
+          }
+        },
+        "68652328-ba5f-44d2-9fd3-d3f53eeafced": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-file-check\" viewbox=\"0 0 16 16\">\n  <path d=\"M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z\"><\/path>\n  <path d=\"M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#ffffff",
+            "badge_title": "Proof with Your Order",
+            "badge_description": "<p>Our designers will email you a proof to approve before we print your order.<\/p>"
+          }
+        },
+        "c7b7b42a-b9bd-403a-a47b-a9cd62ed701a": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-hand-thumbs-up\" viewbox=\"0 0 16 16\">\n  <path d=\"M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#ffffff",
+            "badge_title": "Money-Back Guarantee",
+            "badge_description": "<p>We will gladly refund & cancel your order if you are not satisfied with your proof.<\/p>"
+          }
+        },
+        "63bd39c1-edb6-4a4c-8737-4599b57a3937": {
+          "type": "item",
+          "settings": {
+            "badge_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-truck\" viewbox=\"0 0 16 16\">\n  <path d=\"M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z\"><\/path>\n<\/svg>",
+            "badge_icon_color": "#ffffff",
+            "badge_title": "Free Shipping Over $75",
+            "badge_description": "<p>No discount code needed. Choose free shipping at checkout.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "707c492a-b711-4b09-a8aa-867978fa1f58",
+        "68652328-ba5f-44d2-9fd3-d3f53eeafced",
+        "c7b7b42a-b9bd-403a-a47b-a9cd62ed701a",
+        "63bd39c1-edb6-4a4c-8737-4599b57a3937"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_width": "psb-container-fluid",
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_color": "#000000",
+        "subheading_color": "#585454",
+        "items_per_row": "4",
+        "badge_icon_size": 36,
+        "badge_heading_tag": "h3",
+        "badge_background_color": "#a06358",
+        "badge_title_color": "#ffffff",
+        "badge_description_color": "#f7f7f7",
+        "background_color": "#f1ede5",
+        "text_align": "center",
+        "section_padding_top": 5,
+        "section_padding_bottom": 5,
+        "text_align_mobile": "center",
+        "section_padding_top_mobile": 25,
+        "section_padding_bottom_mobile": 0
+      }
+    },
+    "b0900f6b-791c-44c9-9eb0-863494aa787c": {
+      "type": "badges-section",
+      "blocks": {
+        "template--16937400926431__b0900f6b-791c-44c9-9eb0-863494aa787c-Badge-1": {
+          "type": "Badge",
+          "settings": {
+            "block_color": "#ceaaa1",
+            "block_text_color": "#000000",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"#000000\" class=\"bi bi-house-heart\" viewbox=\"0 0 16 16\">\n  <path d=\"M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z\"><\/path>\n  <path d=\"M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z\"><\/path>\n<\/svg>",
+            "title": "Printed in the USA",
+            "title-size": 28,
+            "fd": "<p>We ship from the United States, not overseas, for a quick turnaround time.<\/p>",
+            "description-size": 16,
+            "btnname": "",
+            "btnname-size": 16,
+            "btnurl": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#a06358",
+            "fullblocklink": true
+          }
+        },
+        "c9476497-83f7-4a85-8e59-5d0ba5ba1c25": {
+          "type": "Badge",
+          "settings": {
+            "block_color": "#ceaaa1",
+            "block_text_color": "#000000",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"#000000\" class=\"bi bi-file-check\" viewbox=\"0 0 16 16\">\n  <path d=\"M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z\"><\/path>\n  <path d=\"M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z\"><\/path>\n<\/svg>",
+            "title": "Proof with Your Order",
+            "title-size": 28,
+            "fd": "<p>Our designers will email you a proof to approve before we print your order.<\/p>",
+            "description-size": 16,
+            "btnname": "",
+            "btnname-size": 16,
+            "btnurl": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#000000",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        },
+        "6d052855-00a0-45d6-ab30-f2b3eaf1680e": {
+          "type": "Badge",
+          "settings": {
+            "block_color": "#ceaaa1",
+            "block_text_color": "#000000",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"#000000\" class=\"bi bi-hand-thumbs-up\" viewbox=\"0 0 16 16\">\n  <path d=\"M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z\"><\/path>\n<\/svg>",
+            "title": "Money-Back Guarantee",
+            "title-size": 28,
+            "fd": "<p>You may refund & cancel your order if you are not satisfied with your proof.<\/p>",
+            "description-size": 16,
+            "btnname": "",
+            "btnname-size": 16,
+            "btnurl": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#000000",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        },
+        "45d13ec5-6071-4cec-a51f-0ebaf8ae6fda": {
+          "type": "Badge",
+          "settings": {
+            "block_color": "#ceaaa1",
+            "block_text_color": "#000000",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"#000000\" class=\"bi bi-truck\" viewbox=\"0 0 16 16\">\n  <path d=\"M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z\"><\/path>\n<\/svg>",
+            "title": "Free Shipping Over $75",
+            "title-size": 28,
+            "fd": "<p>No discount code needed. Choose free shipping at checkout.<\/p>",
+            "description-size": 16,
+            "btnname": "",
+            "btnname-size": 16,
+            "btnurl": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#000000",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16937400926431__b0900f6b-791c-44c9-9eb0-863494aa787c-Badge-1",
+        "c9476497-83f7-4a85-8e59-5d0ba5ba1c25",
+        "6d052855-00a0-45d6-ab30-f2b3eaf1680e",
+        "45d13ec5-6071-4cec-a51f-0ebaf8ae6fda"
+      ],
+      "settings": {
+        "main-title": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "bg_color": "#ffffff",
+        "maintitle_color": "#000000",
+        "blogcorner": true,
+        "icon-width": 35,
+        "icon-height": 35,
+        "padding-top": 25,
+        "padding-bottom": 25
+      }
+    },
+    "7e54b38a-ad20-4181-9f35-52b08045cba2": {
+      "type": "promo-grid",
+      "blocks": {
+        "e6f78aec-bece-437b-b60f-5f81a1b8b083": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Christmas in July is Here!",
+            "textarea": "Stock up on Holiday Gifts for the Whole Family",
+            "cta_text1": "Learn More",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#cf3a3a",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "5fa32f03-d25a-4b6f-869a-24f6231fab3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Christmas_in_July_Tree_on_Tan.png",
+            "link": "shopify:\/\/pages\/promotions-page",
+            "width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "e6f78aec-bece-437b-b60f-5f81a1b8b083",
+        "5fa32f03-d25a-4b6f-869a-24f6231fab3d"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
+    },
+    "16605789661004dbe2": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2.section-header__title {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Our Top Selling Custom Recipe Towels",
+        "home_featured_products": "turn-family-recipes-into-beautiful-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "e7631fcf-96e7-456d-8e2c-0d7578738444": {
+      "type": "feature-section",
+      "blocks": {
+        "template--16881770430687__e7631fcf-96e7-456d-8e2c-0d7578738444-Feature-1": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#ffffff",
+            "block_text_color": "#1c1d1d",
+            "image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA_76f7f0a8-04e3-405c-80c1-df6195aaf6b6.jpg",
+            "title": "1. Take a Photo of Your Recipe & Place Your Order",
+            "fd": "<p>Take a photo or full color scan of your recipe. You will upload it when placing adding your product to cart.<\/p>",
+            "btnname": "Get Started",
+            "btnurl": "https:\/\/theprintedgift.com\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        },
+        "f97621e6-efe4-4535-ac87-18116c3b676a": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#ffffff",
+            "block_text_color": "#0f0f0f",
+            "image": "shopify:\/\/shop_images\/Recipe_Towel_Process_2_85209618-d0fc-4a37-a258-93386785e2da.png",
+            "title": "2. We Email you a Proof for Approval",
+            "fd": "<p>Our designers create a preview of your print and email it to you for approval. You may request changes.<br\/><\/p>",
+            "btnname": "Learn More",
+            "btnurl": "https:\/\/theprintedgift.com\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        },
+        "fd1f16e6-7c54-48fb-90b9-0c58b917afe5": {
+          "type": "Feature",
+          "settings": {
+            "block_color": "#ffffff",
+            "block_text_color": "#1c1d1d",
+            "image": "shopify:\/\/shop_images\/actress.png",
+            "title": "3. Your Order is Printed & Shipped",
+            "fd": "<p>After your proof is approved your order is shipped in 2-4 business days.<br\/><br\/><\/p>",
+            "btnname": "Get Started",
+            "btnurl": "https:\/\/theprintedgift.com\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "btn_bg_color": "#a06358",
+            "btn_text_color": "#ffffff",
+            "fullblocklink": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16881770430687__e7631fcf-96e7-456d-8e2c-0d7578738444-Feature-1",
+        "f97621e6-efe4-4535-ac87-18116c3b676a",
+        "fd1f16e6-7c54-48fb-90b9-0c58b917afe5"
+      ],
+      "settings": {
+        "main-title": "How it Works!",
+        "align_text": "center",
+        "narrow_column": false,
+        "bg_color": "#f1ede5",
+        "maintitle_color": "#1c1d1d",
+        "blogcorner": true
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-family-recipes-into-beautiful-gifts",
+            "title": "Turn Family Recipes into Gifts",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-handwritten-letters-into-beautiful-gifts",
+            "title": "Turn Notes & Letters into Gifts",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-kids-artwork-into-beautiful-gifts",
+            "title": "Turn Childrens Drawings into Gifts",
+            "focal_point": "center center"
+          }
+        },
+        "109ec88f-4d8f-4055-abd4-7ae2c31fc256": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-your-photos-into-beautiful-gifts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "f57072f5-7c78-4cd4-bacf-27b69de2d818": {
+          "type": "collection",
+          "settings": {
+            "collection": "turn-photos-into-gifts-we-remove-backgrounds",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-1",
+        "featured-collections-2",
+        "109ec88f-4d8f-4055-abd4-7ae2c31fc256",
+        "f57072f5-7c78-4cd4-bacf-27b69de2d818"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Product Collections",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "1656684973f1a4e778": {
+      "type": "testimonials",
+      "blocks": {
+        "16566849736323b594-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p> \"It was amazing to see the writing of my mom and sister and the distorted background completely gone.  Amazing job. Thank you!\"<\/p>",
+            "image": "shopify:\/\/shop_images\/personalized-18x18-white-cotton-family-recipe-pillow.jpg",
+            "author": "Sandra M",
+            "author_info": "New York, NY"
+          }
+        },
+        "16566849736323b594-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"I was able to get gift shopping done for my entire family without ever leaving my home. Thank you for creating these special gifts that my children and grandchildren will treasure!\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-03-23_at_11.27.15_AM.png",
+            "author": "Lynn C",
+            "author_info": "Birmingham, AL"
+          }
+        },
+        "16566849736323b594-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"I am thrilled to have ordered a kitchen towel (actually, three) with a very special family recipe for Tea Cakes.. I was even more thrilled when I saw that you are in Nashville!..Thank you.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/grandma_lee.png",
+            "author": "Susan H",
+            "author_info": "Little Rock, AR"
+          }
+        },
+        "16566849736323b594-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"Thank you for your product. The collection of kitchen towels that I gave to my daughters for Christmas are treasured by them all.\"<br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/actress.png",
+            "author": "Maggie B",
+            "author_info": "Spring Lake, NJ"
+          }
+        },
+        "16566849736323b594-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"I just received my order and could not be more pleased!<br\/>Thank you not only for lovely keepsakes and special gifts but, also for your consistent communication and assistance. Your customer service is greatly appreciated.\"<br\/><\/p>",
+            "author": "Julia V",
+            "author_info": "Springfield, MO"
+          }
+        }
+      },
+      "block_order": [
+        "16566849736323b594-0",
+        "16566849736323b594-4",
+        "16566849736323b594-1",
+        "16566849736323b594-2",
+        "16566849736323b594-3"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f1ede5",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "40e1919f-807c-4e6b-92b1-d38cbc36b8e7": {
+          "type": "banner",
+          "settings": {
+            "heading": "How it Works",
+            "text": "",
+            "link": "",
+            "label": "",
+            "color_tint": "#ffffff",
+            "color_tint_opacity": 10,
+            "framed": false
+          }
+        },
+        "promo-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "1. Take a photo & place your order.",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#e5dfd0",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "promo-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "2. We prepare & email your proof.",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/web-designer-starting-her-day.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 360,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#e5dfd0",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "a3d508f6-fb9d-4903-b0d8-cd46cc4da8e0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "3. Your order is printed and shipped!",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/collections\/turn-family-recipes-into-beautiful-gifts",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/boxes-waiting-for-pickup.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 360,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "40e1919f-807c-4e6b-92b1-d38cbc36b8e7",
+        "promo-0",
+        "promo-1",
+        "a3d508f6-fb9d-4903-b0d8-cd46cc4da8e0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 40,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "focal_point": "80% 0",
+        "layout": "left",
+        "height": 750,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
+    },
+    "165757306390c4993c": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "021b2630-66ba-42a7-b165-211749ce7125": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Choc-Chip-Cookie.jpg",
+        "image2": "shopify:\/\/shop_images\/meemaw_20b8f206-133e-46a6-81b1-f22842da8a65.jpg",
+        "image_width": 700,
+        "subtitle": "Order 3+ Products & Get",
+        "title": "FREE SHIPPING",
+        "text": "<p>(Automatic at checkout. Ends November 14th 2022!)<\/p>",
+        "button_label": "Create Custom Gifts",
+        "button_link": "https:\/\/theprintedgift.com\/collections\/frontpage",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "2b0327c5-1f12-42d9-964a-dcb47dc9140e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16223613583583__2b0327c5-1f12-42d9-964a-dcb47dc9140e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Christamas in July Sale has begun!",
+            "title_size": 73,
+            "subheading": "Buy more and Save",
+            "link": "#",
+            "link_text": "Laern More",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/TPG_July_Sale_2023_-_Banners_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--16223613583583__2b0327c5-1f12-42d9-964a-dcb47dc9140e-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16223613583583__2b0327c5-1f12-42d9-964a-dcb47dc9140e-image-1",
+        "template--16223613583583__2b0327c5-1f12-42d9-964a-dcb47dc9140e-image-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".index-section--hero {padding: 0 40px;}",
+        "@media only screen and (max-width: 600px) {.index-section--hero {padding: 0 17px; }}"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "100vh",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "cfd92c09-a484-4af1-9753-2ab0f9754fdf": {
+      "type": "psb-features-features-02",
+      "blocks": {
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "How We Turn Your Familys Recipe into Custom Towels & More",
+            "heading_tag": "h2",
+            "sub_heading_text": ""
+          }
+        },
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-1": {
+          "type": "feature",
+          "settings": {
+            "feature_title": "1. Take a Photo of Your Recipe",
+            "feature_text": "Take a close photo (without shadows) or a full color scan and upload it when order your towel.",
+            "feature_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-stack\" viewbox=\"0 0 16 16\"><path d=\"m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z\"><\/path><path d=\"m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z\"><\/path><\/svg>",
+            "feature_image": "shopify:\/\/shop_images\/1F0618D3-9C3F-4B40-A68C-CEB27189DB19-5E7CF078-8FB3-4A2D-8C4E-C2526E5C33FA_d7d8806a-3a8d-4a64-85df-68128b748d1d.jpg"
+          }
+        },
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-2": {
+          "type": "feature",
+          "settings": {
+            "feature_title": "Install and match",
+            "feature_text": "Keep the continuity and dominant design language of the store with the massive set of settings included in each section.",
+            "feature_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-palette-fill\" viewbox=\"0 0 16 16\"><path d=\"M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07zM8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z\"><\/path><\/svg>"
+          }
+        },
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-3": {
+          "type": "feature",
+          "settings": {
+            "feature_title": "Incredible support",
+            "feature_text": "We love perfection. Any help, even the smallest to make each section blend into your store, we are always available.",
+            "feature_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-person-lines-fill\" viewbox=\"0 0 16 16\"><path d=\"M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z\"><\/path><\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-heading-1",
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-1",
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-2",
+        "template--16768227868895__cfd92c09-a484-4af1-9753-2ab0f9754fdf-feature-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "container_width": "psb-container",
+        "inherit_fonts": true,
+        "text_color": "#262424",
+        "background_color": "#f1ede5",
+        "icon_color": "#a06358",
+        "section_height": false,
+        "section_padding_top": 70,
+        "section_padding_bottom": 70,
+        "section_padding_top_mobile": 100,
+        "section_padding_bottom_mobile": 100
+      }
+    },
+    "521a2edd-6036-4ee8-91ed-8f1439b23a49": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Canvastry_LocationShoot_157.png",
+        "image2": "shopify:\/\/shop_images\/white-cotton-custom-family-recipe-tea-towel-772620_db00e125-15bf-44db-9bc7-f8baa8e18bbd.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "c1bd21fb-1241-4cb2-bcd5-634a51e1a038",
+    "74a57951-3dca-49ac-8eee-7249699b6b7a",
+    "f61b2474-9a1c-4b01-8f11-77bb5afedd75",
+    "8c48a59b-4b81-469f-8e6d-dc15647a4404",
+    "07266ad7-2dc8-4d64-835d-25cc58970fb7",
+    "9a646400-cc5b-431e-a0d0-ec15e20f87f1",
+    "8cbccff7-4013-4128-9fb6-9209ee351c18",
+    "ea124ff7-0b1c-4731-81be-ddc5d750d5f4",
+    "b0900f6b-791c-44c9-9eb0-863494aa787c",
+    "7e54b38a-ad20-4181-9f35-52b08045cba2",
+    "16605789661004dbe2",
+    "e7631fcf-96e7-456d-8e2c-0d7578738444",
+    "featured-collections",
+    "1656684973f1a4e778",
+    "promo-grid",
+    "featured-collection",
+    "background-image-text",
+    "map",
+    "165757306390c4993c",
+    "rich-text",
+    "021b2630-66ba-42a7-b165-211749ce7125",
+    "2b0327c5-1f12-42d9-964a-dcb47dc9140e",
+    "cfd92c09-a484-4af1-9753-2ab0f9754fdf",
+    "521a2edd-6036-4ee8-91ed-8f1439b23a49"
+  ]
+}
