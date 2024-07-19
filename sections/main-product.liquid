@@ -201,7 +201,102 @@
 {
   "type": "quantity_selector",
   "name": "t:product_block.quantity_selector.name",
-  "limit": 1
+  "limit": 1,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "qty_btn",
+      "label": "Show Order Button?",
+      "default": false
+    }
+  ]
+},
+{
+  "type": "how_it_works",
+  "name": "How it works",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "select",
+      "id": "step_type",
+      "label": "Style",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "Style 1"
+        },
+        {
+          "value": "vertical",
+          "label": "Style 2"
+        }
+      ],
+      "default": "horizontal"
+    },
+    {
+      "type": "image_picker",
+      "id": "order_img",
+      "label": "Order"
+    },
+    {
+      "type": "text",
+      "id": "order_text",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "order_content",
+      "label": "Description",
+      "default": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "upload_img",
+      "label": "Upload"
+    },
+    {
+      "type": "text",
+      "id": "upload_text",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "upload_content",
+      "label": "Description",
+      "default": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "proof_img",
+      "label": "Proof"
+    },
+    {
+      "type": "text",
+      "id": "proof_text",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "proof_content",
+      "label": "Description",
+      "default": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "printing_img",
+      "label": "Printing"
+    },
+    {
+      "type": "text",
+      "id": "printing_text",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "printing_content",
+      "label": "Description",
+      "default": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>"
+    }
+  ]
 },
 {
   "type": "size_chart",

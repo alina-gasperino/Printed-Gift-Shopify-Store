@@ -141,6 +141,73 @@
                     {% render block %}
                   {%- when 'separator' -%}
                     <div class="product-block" {{ block.shopify_attributes }}><hr></div>
+                  {% when 'how_it_works' %}
+                    <div class="product-block how_it_works">
+                      <h2>How it Works</h2>
+                      <div class="steps {{ block.settings.step_type }}">
+                        <div class="step order">
+                          <div class="step_description">
+                            <h2>{{ block.settings.order_text }}</h2>
+                            <div>{{ block.settings.order_content }}</div>
+                          </div>
+                          {%- assign order_img_url = block.settings.order_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="lazyload"
+                              data-src="{{ order_img_url }}"
+                              data-widths="[360, 540, 700, 1024]"
+                              data-aspectratio="{{ block.settings.order_img.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.order_img.alt }}">
+                          
+                          <img class="vector" src="{{ 'vector.svg' | asset_url }}" />
+                        </div>
+
+                        <div class="step upload">
+                          <div class="step_description">
+                            <h2>{{ block.settings.upload_text }}</h2>
+                            <div>{{ block.settings.upload_content }}</div>
+                          </div>
+                          {%- assign upload_img_url = block.settings.upload_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="lazyload"
+                              data-src="{{ upload_img_url }}"
+                              data-widths="[360, 540, 700, 1024]"
+                              data-aspectratio="{{ block.settings.upload_img.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.upload_img.alt }}">
+
+                          <img class="vector" src="{{ 'vector.svg' | asset_url }}" />
+                        </div>
+
+                        <div class="step proof">
+                          <div class="step_description">
+                            <h2>{{ block.settings.proof_text }}</h2>
+                            <div>{{ block.settings.proof_content }}</div>
+                          </div>
+                          {%- assign proof_img_url = block.settings.proof_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="lazyload"
+                              data-src="{{ proof_img_url }}"
+                              data-widths="[360, 540, 700, 1024]"
+                              data-aspectratio="{{ block.settings.proof_img.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.proof_img.alt }}">
+
+                          <img class="vector" src="{{ 'vector.svg' | asset_url }}" />
+                        </div>
+
+                        <div class="step printing">
+                          <div class="step_description">
+                            <h2>{{ block.settings.printing_text }}</h2>
+                            <div>{{ block.settings.printing_content }}</div>
+                          </div>
+                          {%- assign printing_img_url = block.settings.printing_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="lazyload"
+                              data-src="{{ printing_img_url }}"
+                              data-widths="[360, 540, 700, 1024]"
+                              data-aspectratio="{{ block.settings.printing_img.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.printing_img.alt }}">
+                        </div>
+                      </div>
+                    </div>
                   {%- when 'text' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.text }}
@@ -242,11 +309,16 @@
                       {%- endif -%}
                     </div>
                   {%- when 'quantity_selector' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
-                      <div class="product__quantity">
+                    <div class="product-block {% if block.settings.qty_btn %}flex{% endif %}">
+                      <div class="product__quantity {{ block.settings.qty_btn }}">
                         {% assign qty_id = section_id | append: product.id %}
-                        <label for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}</label>
-                        {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+                        <div class="qty">
+                          <label for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}</label>
+                          {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+                        </div>
+                        {% if block.settings.qty_btn %}
+                          <button class="btn btn--full add-to-cart bold_clone new_product">Place Order</button>
+                        {% endif %}
                       </div>
                     </div>
                   {%- when 'size_chart' -%}
